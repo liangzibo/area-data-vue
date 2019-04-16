@@ -8,7 +8,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/liangzibo/area-data.git"
+    "url": "git+https://github.com/liangzibo/area-data.git"
   },
   "bugs": {
     "url": "https://github.com/liangzibo/area-data/issues"
@@ -31,5 +31,9 @@
   "devDependencies": {
     "lodash": "^4.17.4"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "homepage": "https://github.com/liangzibo/area-data#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
