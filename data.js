@@ -1,3 +1,3 @@
 module.exports = {
-    pcaa: require('area-data/area-vue')
+    pcaa: require('area-data-vue/area-vue')
 };

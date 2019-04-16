@@ -16,7 +16,7 @@
   "files": [
     "data.js",
     "package.json",
-    "data-vue.js",
+    "area-vue.js",
     "README.md"
   ],
   "keywords": [
