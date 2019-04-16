@@ -1,0 +1,35 @@
+{
+  "name": "area-data-vue",
+  "version": "1.0.1",
+  "author": "jingxiangrensheng@163.com",
+  "description": "中国省、市、区、街道数据(含港澳台)",
+  "license": "MIT",
+  "main": "./data.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liangzibo/area-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liangzibo/area-data/issues"
+  },
+  "files": [
+    "data.js",
+    "package.json",
+    "data-vue.js",
+    "README.md"
+  ],
+  "keywords": [
+    "china",
+    "area",
+    "行政区域代码",
+    "china area",
+    "picker",
+    "area picker",
+    "中国省份"
+  ],
+  "devDependencies": {
+    "lodash": "^4.17.4"
+  },
+  "dependencies": {}
+}
