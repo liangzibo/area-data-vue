@@ -1,4 +1,4 @@
-# area-data
+# area-data-vue
 省市区数据
 
 ## 安装 vue-area-linkage
