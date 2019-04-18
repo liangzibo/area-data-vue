@@ -7,44 +7,46 @@
 
 ```
     npm i --save vue-area-linkage
-
-
 ```
 使用yarn安装:
 
 ```
-
     yarn add vue-area-linkage
-
-
 ```
 ## 安装 area-data-vue
 
 ```
-
     npm i --save area-data-vue
-
 ```
 
 ## 使用
 ```
-
     import Vue from 'vue';
-    import { pcaa } from 'area-data-vue';
     import VueAreaLinkage from 'vue-area-linkage';
-
     Vue.use(VueAreaLinkage)
-
 ```
 
 ```
-
-
-    <area-select v-model="selected" :data="pcaa"></area-select>         // 省市区
-
-
-    <area-cascader v-model="selected2" :data="pcaa"></area-cascader>    // 省市区
-
+    <template>
+        <div>
+            <area-select v-model="selected" :data="pcaa"></area-select>         // 省市区
+            <area-cascader v-model="selected2" :data="pcaa"></area-cascader>    // 省市区
+        </div>
+    </template>
+    <script>
+        import { pcaa } from "area-data-vue"; // 城市数据
+        import "vue-area-linkage/dist/index.css"; // 样式
+        export default {
+          name: "Test",
+          data() {
+            return {
+              pcaa: pcaa,
+              selected: [],
+              selected2: []
+            }
+          }
+        }
+    </script>
 ```
 
 
