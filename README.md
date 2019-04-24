@@ -1,5 +1,5 @@
 # area-data-vue
-省市区数据
+省市区街道数据
 
 ## 安装 vue-area-linkage
 
@@ -7,11 +7,6 @@
 
 ```
     npm i --save vue-area-linkage
-```
-使用yarn安装:
-
-```
-    yarn add vue-area-linkage
 ```
 ## 安装 area-data-vue
 
