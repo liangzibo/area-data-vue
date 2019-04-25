@@ -4,7 +4,7 @@
 
 ## Installation
 Install the pkg with npm:
-
+```
 npm i --save area-linkage-vue area-data-vue
 ```
 
